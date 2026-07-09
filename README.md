@@ -1,16 +1,26 @@
-# Executive Resume
+# Professional Provenance Resume Template
 
-A source-controlled resume and portfolio publishing system for **Joseph Jeremy Michael Walker, MBA**.
+A beginner-friendly, source-controlled resume and portfolio publishing system for professionals working in the AI era.
 
-This repository treats a resume as a reproducible professional publication rather than a one-off word processor file.
+This repository began as the executive technical resume for **Joseph Jeremy Michael Walker, MBA**, but the pattern is intentionally reusable:
 
-It is also intended as a beginner-friendly example of how professionals can use Git to keep version history of meaningful work produced with AI systems.
+> Your resume should not be the place where you remember your career. It should be generated from a version-controlled record of the work you have already preserved.
+
+## What This Is
+
+This is a resume-as-code template.
+
+It uses Git, GitHub, structured data, HTML, CSS, and optional AI assistance to help professionals preserve their work history, update their resume after meaningful sprints, and publish a living portfolio page.
+
+The resume itself is only one output.
+
+The deeper purpose is professional provenance: keeping track of what you did, when you did it, how it changed, and what evidence exists.
 
 ## Why This Repository Exists
 
 Many professionals now use AI systems to draft, analyze, plan, code, research, summarize, and publish work.
 
-That work often disappears into chat history, downloads folders, email drafts, or scattered documents.
+That work often disappears into chat history, downloads folders, email drafts, screenshots, or scattered documents.
 
 Git solves a different problem:
 
@@ -19,6 +29,20 @@ Git solves a different problem:
 A resume is an ideal first repository because almost everyone understands the object being maintained. You do not need to be a software engineer to benefit from version history.
 
 If you can update a document, you can learn to update a repository.
+
+## Who This Is For
+
+This pattern can help:
+
+- professionals who use AI and want to preserve the work that becomes real
+- students building a public portfolio
+- teachers tracking curriculum work
+- researchers tracking publications and disclosures
+- writers preserving drafts and finished work
+- designers tracking portfolio updates
+- consultants tracking case studies
+- healthcare, technical, legal, business, and public-sector professionals tracking credentials and projects
+- anyone who wants a practical first GitHub repository
 
 ## What This Repository Teaches
 
@@ -31,17 +55,10 @@ This project demonstrates how to:
 - preserve meaningful work history through commits
 - use GitHub as a public portfolio page
 - publish `index.html` as a simple website
+- communicate with AI systems using structured career evidence
 - treat AI-assisted work as evidence that should be reviewed, edited, and preserved
 
-## Design Thesis
-
-The resume is structured around one evidence chain:
-
-**Research -> Architecture -> Implementation -> Deployment -> Validation**
-
-The goal is not to create a flashy resume. The goal is to present professional evidence with clarity, restraint, and reproducibility.
-
-## Core Idea
+## The Core Workflow
 
 Do not wait until you need a job to remember what you did.
 
@@ -67,15 +84,15 @@ A repository is a folder with memory.
 
 GitHub is a place where that folder can live online.
 
-You can use this pattern even if your work is not code:
+You can start simply:
 
-- designers can track portfolio updates
-- teachers can track curriculum work
-- researchers can track publications
-- writers can track drafts
-- consultants can track case studies
-- healthcare and technical professionals can track credentials and projects
-- AI users can track work that began in chat but became a real artifact
+1. Change one file.
+2. Save the change.
+3. Commit the change.
+4. Write a short message explaining what changed.
+5. Repeat whenever meaningful work creates new evidence.
+
+You do not need to understand all of Git on day one. A resume is a good first repository because the object is familiar and the updates are meaningful.
 
 ## Publishing as a Portfolio Page
 
@@ -89,7 +106,15 @@ That means one source can produce:
 - a web resume
 - a portfolio landing page
 - a machine-readable professional record
-- future CV, biography, or project pages
+- future CV, biography, speaker page, or project pages
+
+## Design Thesis
+
+The Joseph Walker version is structured around one evidence chain:
+
+**Research -> Architecture -> Implementation -> Deployment -> Validation**
+
+The broader template can be adapted to any field. The goal is not to create a flashy resume. The goal is to present professional evidence with clarity, restraint, and reproducibility.
 
 ## Principles
 
@@ -136,10 +161,16 @@ The generated PDF is written to:
 dist/Joseph-Walker-Executive-Resume.pdf
 ```
 
-## Suggested Workflow
+## Suggested Sprint Closeout
+
+At the end of a noteworthy sprint, ask:
+
+> What evidence did this sprint produce that future readers should be able to verify, understand, or ask about?
+
+Then:
 
 1. Do meaningful work.
-2. Ask what evidence the work produced.
+2. Identify the evidence the work produced.
 3. Update `data/resume.json`.
 4. Generate the HTML and PDF.
 5. Review the result.
@@ -154,8 +185,23 @@ Update systems portfolio with OCR pipeline
 Add IBM AI Engineering certificate
 ```
 
-## Positioning
+## Positioning of This Version
 
 This version emphasizes trustworthy AI systems, provenance-aware computing, AI governance, systems architecture, and production software.
 
-The broader pattern can be adapted by anyone who wants to preserve professional progress, communicate clearly with AI systems, and publish a living portfolio from structured evidence.
+That is Joseph Walker's professional evidence model.
+
+Your version may emphasize teaching, design, clinical practice, legal writing, public service, consulting, research, ministry, operations, art, engineering, or another field.
+
+The pattern remains the same:
+
+```text
+meaningful work
+    -> preserved evidence
+    -> structured professional record
+    -> published resume / portfolio
+```
+
+## Official Project Rule
+
+This repository optimizes for truth, reproducibility, and clarity over visual novelty.
