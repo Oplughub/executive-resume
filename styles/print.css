@@ -1,0 +1,225 @@
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+:root {
+  --ink: #17212b;
+  --muted: #4e5b68;
+  --rule: #c8d2dc;
+  --soft-rule: #e4e9ee;
+  --paper: #ffffff;
+  --field: #ffffff;
+  --blue: #123b63;
+  --blue-soft: #f5f7fa;
+}
+
+html,
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.resume {
+  display: block;
+  margin: 0;
+  width: auto;
+}
+
+.page {
+  background: #ffffff;
+  box-shadow: none;
+  height: 11in;
+  margin: 0;
+  overflow: hidden;
+  padding: 0.42in 0.45in 0.38in;
+  page-break-after: always;
+  width: 8.5in;
+}
+
+.page:last-child {
+  page-break-after: auto;
+}
+
+.masthead {
+  padding-bottom: 0.13in;
+}
+
+.document-label {
+  font-size: 8.5px;
+  margin-bottom: 0.055in;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 1.02;
+}
+
+.role {
+  font-size: 11.6px;
+  margin-top: 0.055in;
+}
+
+.positioning {
+  font-size: 11.5px;
+  line-height: 1.28;
+  margin-top: 0.085in;
+}
+
+.contact {
+  font-size: 9.2px;
+  line-height: 1.24;
+}
+
+.block {
+  margin-top: 0.14in;
+}
+
+h2 {
+  font-size: 9.8px;
+  margin-bottom: 0.06in;
+  padding-bottom: 0.035in;
+}
+
+h3 {
+  font-size: 10.8px;
+  margin-bottom: 0.025in;
+}
+
+p,
+li,
+dd,
+dt {
+  font-size: 9.15px;
+  line-height: 1.33;
+}
+
+p {
+  margin-bottom: 0.045in;
+}
+
+.profile-grid {
+  gap: 0.16in;
+}
+
+.section-heading-row {
+  gap: 0.16in;
+  grid-template-columns: 1fr 2.65in;
+}
+
+.section-note {
+  font-size: 8.7px;
+  margin-bottom: 0.06in;
+}
+
+.publication-grid {
+  gap: 0.16in;
+  grid-template-columns: 1fr 2.05in;
+}
+
+.compact-list {
+  padding-left: 0.14in;
+}
+
+.compact-list li {
+  margin-bottom: 0.018in;
+}
+
+.publication-aside {
+  padding-left: 0.12in;
+}
+
+.callout {
+  margin-top: 0.13in;
+  padding: 0.08in 0.12in 0.075in;
+}
+
+.callout h2 {
+  margin-bottom: 0.04in;
+}
+
+.capability-grid {
+  gap: 0.11in 0.2in;
+}
+
+.capability-grid h3 {
+  font-size: 9.8px;
+}
+
+.achievement-grid {
+  gap: 0.055in 0.22in;
+  padding-left: 0.13in;
+}
+
+.evidence-header {
+  padding-bottom: 0.11in;
+}
+
+.evidence-header h2 {
+  font-size: 19px;
+}
+
+.evidence-header p {
+  font-size: 8.5px;
+}
+
+.systems-grid {
+  gap: 0.12in;
+  margin-top: 0.16in;
+}
+
+.system-card {
+  padding-top: 0.075in;
+}
+
+.system-card h3 {
+  font-size: 12.5px;
+}
+
+.subtitle {
+  font-size: 8.4px;
+  margin-bottom: 0.045in;
+}
+
+.validation {
+  font-size: 8.8px;
+  padding: 0.04in 0.065in;
+}
+
+.lower-grid {
+  gap: 0.22in;
+  grid-template-columns: 1fr 2.75in;
+  margin-top: 0.18in;
+}
+
+.education-list p {
+  margin-bottom: 0.055in;
+}
+
+.side-stack {
+  gap: 0.14in;
+}
+
+dt {
+  margin-top: 0.045in;
+}
+
+.principles-block li {
+  margin-bottom: 0.04in;
+}
+
+.resume-footer {
+  bottom: 0.32in;
+  font-size: 8.5px;
+  left: 0.45in;
+  right: 0.45in;
+}
+
+@media print {
+  a[href]::after {
+    content: "";
+  }
+}
