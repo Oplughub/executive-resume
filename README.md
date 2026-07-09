@@ -1,33 +1,58 @@
 # Executive Resume
 
-A source-controlled executive resume publishing system for Joseph Jeremy Michael Walker, MBA.
+A source-controlled executive resume publishing system for **Joseph Jeremy Michael Walker, MBA**.
 
-This repository treats the resume as a reusable technical document rather than a one-off word processor file.
+This repository treats the resume as a reproducible professional publication rather than a one-off word processor file.
 
-## Purpose
+## Design Thesis
 
-The resume is structured to present a senior AI systems architect profile through a clear evidence chain:
+The resume is structured around one evidence chain:
 
-**Scientific Foundation → Original Research → Systems Engineering → Production Deployment → Public Validation**
+**Research -> Architecture -> Implementation -> Deployment -> Validation**
 
-## Files
+The goal is not to create a flashy resume. The goal is to present a senior AI systems architect profile with the restraint and clarity of an IBM-classic technical document.
 
-- `index.html` — primary resume document
-- `styles/screen.css` — browser preview styling
-- `styles/print.css` — print/PDF styling
-- `data/resume.json` — canonical structured resume data
-- `scripts/render-pdf.mjs` — local PDF export script using Playwright
-- `.github/workflows/render-pdf.yml` — GitHub Actions PDF export workflow
+## Principles
 
-## Local PDF Export
+- Evidence before claims
+- Research before buzzwords
+- Truthful metrics only
+- No headshot or decorative filler
+- Text remains selectable, printable, and version-controlled
+- HTML/CSS is the source of truth for layout
+- Structured data remains the source of truth for content
+
+## Repository Structure
+
+```text
+.
+├── index.html
+├── data/
+│   └── resume.json
+├── styles/
+│   ├── screen.css
+│   └── print.css
+├── scripts/
+│   └── render-pdf.mjs
+├── .github/
+│   └── workflows/
+│       └── render-pdf.yml
+└── package.json
+```
+
+## Local Development
 
 ```bash
 npm install
 npm run render
 ```
 
-The generated PDF is written to `dist/Joseph-Walker-Executive-Resume.pdf`.
+The generated PDF is written to:
 
-## Design Direction
+```text
+dist/Joseph-Walker-Executive-Resume.pdf
+```
 
-The document is designed to read less like a generic resume template and more like a compact executive technical dossier: dense, auditable, senior, and suitable for AI architecture, AI governance, research engineering, and public-sector technology roles.
+## Positioning
+
+This resume emphasizes trustworthy AI systems, provenance-aware computing, AI governance, systems architecture, and production software. It is designed for senior AI engineering, AI governance, research engineering, public-sector technology, and principal systems architecture roles.
