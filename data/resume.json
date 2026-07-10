@@ -1,151 +1,104 @@
 {
   "identity": {
-    "name": "Joseph Jeremy Michael Walker, MBA",
+    "name": "Adam Lawal Oluwadamilare",
     "documentLabel": "Executive Technical Resume",
-    "title": "Artificial Intelligence Systems Architect • Software Engineer • AI Governance Researcher",
-    "positioning": "Designing trustworthy AI systems through governance, provenance, software architecture, and human-centered engineering."
+    "title": "Systems & Automation Specialist • Technical Builder",
+    "positioning": "Bridging the gap between advanced enterprise AI capabilities and practical, low-code business workflow automation."
   },
   "contact": {
-    "location": "Canton, Ohio",
-    "phone": "330-415-1449",
-    "email": "joseph@729llc.com",
-    "linkedin": "https://www.linkedin.com/in/joseph-walker-01ba9a181/",
-    "github": "https://github.com/josephjmwalker-mba",
-    "tdc": "https://www.tdcommons.org/dpubs_series/9043/"
+    "location": "Lagos, Nigeria",
+    "phone": "+2348143732111",
+    "email": "your-email@example.com",
+    "linkedin": "https://www.linkedin.com/in/adam-lawal-oluwadamilare",
+    "github": "https://github.com/your-username"
   },
   "executiveProfile": [
-    "Artificial intelligence systems architect with experience designing and deploying production software, AI governance frameworks, decision-support platforms, and knowledge systems across healthcare, commerce, engineering, education, and public infrastructure.",
-    "Published researcher in AI governance, provenance-aware computing, multi-agent systems, and software architecture with a portfolio spanning production web applications, published iOS software, AI-assisted operational platforms, and technical disclosures focused on trustworthy artificial intelligence.",
-    "Combines scientific research, software engineering, systems architecture, and strategic management to translate emerging AI capabilities into secure, auditable, and human-centered operational systems."
+    "Dynamic and solutions-driven Systems & Automation Specialist with hands-on experience designing, building, and deploying end-to-end business operations platforms.",
+    "Adept at connecting advanced AI systems (Microsoft Agent Framework, Foundry IQ) with robust low-code integrations (Make.com) and advanced spreadsheet data engines to resolve operational bottlenecks.",
+    "Proven track record of turning complex business challenges into structured digital solutions, including real-time inventory architectures, conditional alerting infrastructure, and commercial web portals."
   ],
   "publications": {
-    "technicalDisclosureCommons": [
-      "System and Method for User-Owned Longitudinal Memory and Interpretation System with a Provenance-Tagged Interpretive Ledger, Engine-Interchangeable Inference, Federated Validation, and Generational Maintenance (2026)",
-      "The Living Memory System: Transforming Death Care Infrastructure into a Perpetual Relational Ecosystem for Memory Preservation, Family Continuity, and Citizen-Governed Memorial Stewardship (2026)",
-      "Deliberative Intelligence, Iterative Consensus, and Outcome-Grounded Wisdom via Reality Backpropagation (2026)",
-      "Coordinated, Heterogeneous Model Composition under a Shared Governance and Audit Layer (2025)",
-      "Dynamic System Prompt Architecture for Context State Governance in Large Language Models (2025)",
-      "Anchored AI: Intent-Extraction, Anchor-Weighted Generation, and Synthetic Collapse Prevention for Human-Aligned AI (2025)",
-      "Python 4.0: A Gated, Forward-Safe Evolution (2025)"
-    ],
-    "books": [
-      "The Clarity Economy: The Fifth Industrial Revolution and the Fight for Signal Integrity (2026)",
-      "AI Is AI: Why Metaphors Fail Us (2026)"
-    ],
-    "focus": "AI governance, provenance-aware computing, multi-agent systems, software architecture, trustworthy AI, distributed systems, information integrity, and decision intelligence."
+    "focus": "Workflow automation, agentic orchestration, spreadsheet architecture, low-code integration, business operations, and technical personal branding."
   },
   "capabilities": [
     {
-      "group": "Artificial Intelligence",
-      "items": ["AI Engineering", "Multi-Agent Systems", "Retrieval-Augmented Generation", "Computer Vision", "Natural Language Processing", "AI Governance", "Trustworthy AI", "AI Evaluation", "Decision Intelligence", "Human-AI Collaboration"]
+      "group": "AI & Agentic Orchestration",
+      "items": ["Microsoft Foundry", "Agent Framework", "Foundry IQ", "Fabric IQ", "Model Context Protocol (MCP)", "Agentic RAG Loops", "Semantic Analysis"]
     },
     {
-      "group": "Software Engineering",
-      "items": ["Python", "TypeScript", "Swift", "React", "Next.js", "REST APIs", "SQL", "Prisma", "Git", "Testing & Release Engineering"]
+      "group": "Workflow & Low-Code Automation",
+      "items": ["Make.com (Integromat)", "Webhooks", "API Integration", "Custom Filtering", "Operational Routing", "Logic Gates"]
     },
     {
-      "group": "Systems Architecture",
-      "items": ["Software Architecture", "Distributed Systems", "Knowledge Systems", "Provenance-Aware Computing", "Information Architecture", "Semantic Information Systems", "Workflow Automation", "Enterprise Integration"]
+      "group": "Data & Spreadsheet Architecture",
+      "items": ["Google Sheets", "SUMPRODUCT Logic", "Conditional IF Logic", "Automated Alert Workflows", "Data Sanitization"]
     },
     {
-      "group": "Security & Operations",
-      "items": ["DevSecOps Practices", "Secure API Design", "Identity & Authentication", "Operational Workflows", "Technical Documentation", "Agile Development", "Production Deployment", "Quality Assurance"]
+      "group": "Frontend Design & Operations",
+      "items": ["HTML5", "CSS3", "Responsive Layouts", "UX/UI for Digital Tools", "Inventory Logistics", "Process Mapping"]
     }
   ],
   "edgeAI": {
-    "title": "Edge AI, Computer Vision & Trusted Inference",
-    "summary": "Designed edge-AI architectures spanning medical-device OCR, aerial inspection workflows, local model experimentation, and privacy-preserving decision support. Experience includes offline-capable inference, computer vision preprocessing, human-verified extraction, local/remote model orchestration, and provenance-aware interpretation pipelines."
+    "title": "Agentic Integration & Automation Systems",
+    "summary": "Specialized in mapping sophisticated AI models into production-ready operational layers. Expert at using automation middleware to bridge the gap between structured databases, external APIs, and agentic reasoning frameworks."
   },
   "systems": [
     {
-      "name": "Hermeneia",
-      "subtitle": "AI Governance & Provenance Architecture",
-      "summary": "Designed and implemented an AI governance platform that separates evidence extraction, semantic contract generation, AI inference, evaluation, and human stewardship into independently auditable stages.",
-      "validation": "998 passing automated tests",
-      "highlights": ["Provider-neutral AI architecture", "Provenance-tagged interpretation pipeline", "Semantic contracts", "Human-in-the-loop governance", "Multi-stage evaluation framework", "CLI, API, and web interface", "Automated validation suite"]
+      "name": "Custom Inventory Management Platform",
+      "subtitle": "End-to-End Operational Automation Suite",
+      "summary": "Architected and deployed a synchronized inventory management ecosystem integrating user forms, centralized data engines, and cloud automation workflows.",
+      "highlights": ["Google Forms & Sheets data structures", "Make.com workflow integration", "Automated low-stock triggers & real-time routing", "Validation filters to eliminate data manual errors"]
     },
     {
-      "name": "Sodateru.Shop",
-      "subtitle": "Production AI-Enabled Commerce & Operations Platform",
-      "summary": "Designed and deployed a production full-stack commerce platform integrating AI decision support, operational analytics, secure payment processing, fulfillment automation, and administrative workflows.",
-      "highlights": ["Next.js / TypeScript architecture", "AI Strategy Advisor", "Daily AI Growth Reports", "BTCPay Server integration", "Printful fulfillment automation", "Secure webhook infrastructure", "Operational analytics"]
+      "name": "Laundry Enterprise Portal",
+      "subtitle": "Commercial Web Platform & Process Engine",
+      "summary": "Developed and launched a responsive commercial web portal for a laundry enterprise, syncing the client-facing user experience directly with backend operational tools.",
+      "highlights": ["Responsive web architecture", "Frontend UX aligned with intake processes", "Streamlined backend service data workflows"]
     },
     {
-      "name": "Big Joke",
-      "subtitle": "Human Performance Intelligence Platform",
-      "summary": "Designed a structured creative workflow platform that transforms unstructured ideas into measurable performance data through metadata classification, multimedia capture, practice analytics, and AI-assisted coaching architecture.",
-      "highlights": ["Structured knowledge models", "Metadata classification", "Practice analytics", "AI coaching framework", "Multimedia capture", "Performance intelligence"]
-    },
-    {
-      "name": "729-HTML-100",
-      "subtitle": "Semantic Publishing & Knowledge Infrastructure",
-      "summary": "Built a secure semantic publishing platform emphasizing multilingual public knowledge, accessibility, institutional memory, privacy-preserving search, and operational stewardship.",
-      "highlights": ["Semantic publishing", "Multilingual architecture", "Browser-local semantic search", "Security-first deployment", "Steward portal", "Static knowledge infrastructure"]
-    },
-    {
-      "name": "Aerial Inspections LLC",
-      "subtitle": "Operational Inspection Platform",
-      "summary": "Developed operational software supporting regulated aerial inspection workflows, evidence management, reporting, and infrastructure documentation.",
-      "highlights": ["FAA Part 107 operations", "Inspection workflows", "Evidence management", "Technical reporting", "Operational documentation", "Client information systems"]
-    },
-    {
-      "name": "Published iOS Applications",
-      "subtitle": "Production Decision-Support Software",
-      "summary": "Published production iOS applications through the Apple App Store, including HeadroomCalc for engineering calculation support and RMDAnalyzer for retirement distribution planning.",
-      "highlights": ["HeadroomCalc", "RMDAnalyzer", "Apple App Store release process", "Decision-support software"]
+      "name": "Technical Content & Brand Strategy",
+      "subtitle": "Digital Community Building",
+      "summary": "Built a structured digital content network across professional platforms to document real-time technical learning journeys and build domain authority.",
+      "highlights": ["LinkedIn personal brand growth", "TikTok technical documentation", "Community engagement strategy"]
     }
   ],
   "education": [
     {
-      "institution": "IBM",
-      "credential": "AI Engineering Professional Certificate",
-      "year": "2025",
-      "details": "Production AI systems, machine learning, transformers, retrieval-augmented generation, computer vision, AI agents, LangChain, vector databases, deep learning, and deployment workflows."
+      "institution": "Digital Witch IT Support Community",
+      "credential": "IT Support Program Participant",
+      "year": "2026",
+      "details": "Technical troubleshooting, systems administration, network protocols, cloud collaboration, and core IT infrastructure support systems."
     },
     {
-      "institution": "Stanford University",
-      "credential": "Artificial Intelligence in Health Care",
-      "year": "2025",
-      "details": "Predictive modeling, clinical decision support, medical imaging, responsible AI, AI evaluation, and translation of machine learning research into safe healthcare systems."
+      "institution": "ALX Africa",
+      "credential": "Graduate – Freelancer Academy",
+      "year": "2026",
+      "details": "Focused on digital freelancing strategies, project scoping, professional global execution, client management, and remote tech service delivery."
     },
     {
-      "institution": "Walsh University",
-      "credential": "MBA, Strategic Management",
-      "year": "2014",
-      "details": "97th Percentile National Comprehensive Assessment. Graduate coursework in strategy, finance, operations, information systems, and executive decision-making."
-    },
-    {
-      "institution": "Walsh University",
-      "credential": "Bachelor of Science — Molecular Biology • Chemistry • Business Management",
-      "year": "",
-      "details": "Magna Cum Laude. Departmental Honors. Honors Thesis. Interdisciplinary scientific education combining molecular biology, chemistry, business management, quantitative analysis, and research methodology."
-    },
-    {
-      "institution": "Federal Aviation Administration",
-      "credential": "Remote Pilot Certificate (Part 107)",
-      "year": "",
-      "details": "Remote sensing, thermal imaging, RTK mapping, infrastructure inspection, aviation safety, and unmanned aerial systems operations."
+      "institution": "Microsoft AI Skills Fest",
+      "credential": "AI Architectures Track Certificate",
+      "year": "2026",
+      "details": "Specialized in multi-agent orchestration using Microsoft Agent Framework, Foundry IQ, and Fabric IQ for semantic data translation."
     }
   ],
   "technicalEnvironment": {
-    "Languages": ["Python", "TypeScript", "Swift", "JavaScript", "SQL"],
-    "Artificial Intelligence": ["OpenAI", "Anthropic", "Gemini", "LangChain", "Retrieval-Augmented Generation", "Computer Vision", "Vector Databases", "AI Agents"],
-    "Frameworks": ["React", "Next.js", "Flask", "Node.js", "Tailwind CSS"],
-    "Data": ["Prisma", "MySQL", "SQLite"],
-    "Platforms": ["GitHub", "Apple App Store", "Vercel", "BTCPay Server", "Printful"]
+    "Automation & Tools": ["Make.com", "Google Workspace", "Webhooks", "Git", "GitHub"],
+    "AI Architectures": ["Microsoft Foundry", "Agent Framework", "Foundry IQ", "Fabric IQ", "RAG Loops"],
+    "Web Development": ["HTML5", "CSS3", "Responsive Web Design", "UX/UI Design"],
+    "Data Engines": ["Google Sheets Architecture", "Advanced Logic Formulation", "Process Automation"]
   },
   "achievements": [
-    "Published multiple peer-discoverable Technical Disclosure Commons disclosures advancing AI governance, software architecture, provenance-aware computing, and trustworthy AI.",
-    "Designed and implemented Hermeneia, an AI governance platform emphasizing provenance, semantic contracts, evaluation, and human oversight.",
-    "Built and deployed multiple production AI-enabled web platforms integrating secure APIs, operational analytics, payment processing, fulfillment automation, and AI-assisted decision support.",
-    "Published multiple production iOS applications through the Apple App Store.",
-    "Graduated Magna Cum Laude with Departmental Honors and earned an MBA with a 97th percentile national assessment."
+    "Successfully architected real-time low-stock inventory alerting mechanisms to automate supply chain communication.",
+    "Integrated enterprise-grade AI frameworks with flexible low-code automation tools to deliver end-to-end digital pipelines.",
+    "Accepted into the competitive Digital Witch IT Support Community (June/July 2026 Cohort).",
+    "Graduated from the ALX Africa Freelancer Academy to manage international technical projects effectively."
   ],
   "principles": [
-    "Design AI systems that remain understandable, auditable, and accountable.",
-    "Separate deterministic infrastructure from probabilistic inference.",
-    "Preserve provenance and chain of custody for decision-critical information.",
-    "Build technology that augments human judgment rather than replacing it."
+    "Build digital systems that remain simple, reliable, and highly scalable.",
+    "Automate repetitive operational tasks to give teams leverage to tackle real-world business growth.",
+    "Bridge high-level artificial intelligence frameworks with localized business workflows.",
+    "Document the technical learning process transparently to contribute to global tech communities."
   ],
-  "footer": "Research → Architecture → Implementation → Deployment → Validation"
+  "footer": "Systems Design → Low-Code Automation → Agentic Integration → Operational Efficiency"
 }
