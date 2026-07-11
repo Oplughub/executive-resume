@@ -84,7 +84,7 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>${escapeHtml(resume.identity.name)} — ${escapeHtml(resume.identity.documentLabel)}</title>
+  <title>${escapeHtml(resume.identity?.name ?? '')} — ${escapeHtml(resume.identity?.documentLabel ?? '')}</title>
   <link rel="stylesheet" href="styles/screen.css" />
   <link rel="stylesheet" href="styles/print.css" media="print" />
 </head>
@@ -92,20 +92,30 @@ const html = `<!doctype html>
   <main class="resume" id="resume" aria-label="Executive technical resume">
     <section class="page page-one" aria-label="Executive summary">
       <header class="masthead">
-        <div class="document-label">${escapeHtml(resume.identity.documentLabel)}</div>
+        <div class="document-label">${escapeHtml(resume.identity?.documentLabel ?? '')}</div>
         <div class="masthead-grid">
           <div>
-            <h1>${escapeHtml(resume.identity.name)}</h1>
-            <p class="role">${escapeHtml(resume.identity.title)}</p>
-            <p class="positioning">${escapeHtml(resume.identity.positioning)}</p>
+            <h1>${escapeHtml(resume.identity?.name ?? '')}</h1>
+            <p class="role">${escapeHtml(resume.identity?.title ?? '')}</p>
+            <p class="positioning">${escapeHtml(resume.identity?.positioning ?? '')}</p>
           </div>
           <address class="contact" aria-label="Contact information">
-            <span>${escapeHtml(resume.contact.location)}</span>
-            <span>${escapeHtml(resume.contact.phone)}</span>
-            <a href="mailto:${escapeHtml(resume.contact.email)}">${escapeHtml(resume.contact.email)}</a>
-            <a href="${escapeHtml(resume.contact.linkedin)}">LinkedIn</a>
-            <a href="${escapeHtml(resume.contact.github)}">GitHub</a>
-            ${resume.contact?.tdc
+            <span>${escapeHtml(resume.contact?.location ?? '')}</span>
+<span>${escapeHtml(resume.contact?.phone ?? '')}</span>
+
+<a href="mailto:${escapeHtml(resume.contact?.email ?? '')}">
+  ${escapeHtml(resume.contact?.email ?? '')}
+</a>
+
+${resume.contact?.linkedin
+  ? `<a href="${escapeHtml(resume.contact.linkedin)}">LinkedIn</a>`
+  : ''}
+
+${resume.contact?.github
+  ? `<a href="${escapeHtml(resume.contact.github)}">GitHub</a>`
+  : ''}
+
+${resume.contact?.tdc
   ? `<a href="${escapeHtml(resume.contact.tdc)}">Technical Disclosure Commons</a>`
   : ''}
           </address>
