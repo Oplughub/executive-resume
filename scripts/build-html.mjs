@@ -101,7 +101,9 @@ const html = `<!doctype html>
             <a href="mailto:${escapeHtml(resume.contact.email)}">${escapeHtml(resume.contact.email)}</a>
             <a href="${escapeHtml(resume.contact.linkedin)}">LinkedIn</a>
             <a href="${escapeHtml(resume.contact.github)}">GitHub</a>
-            <a href="${escapeHtml(resume.contact.tdc)}">Technical Disclosure Commons</a>
+            ${resume.contact?.tdc
+  ? `<a href="${escapeHtml(resume.contact.tdc)}">Technical Disclosure Commons</a>`
+  : ''}
           </address>
         </div>
       </header>
