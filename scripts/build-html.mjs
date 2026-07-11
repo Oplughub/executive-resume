@@ -125,7 +125,7 @@ ${resume.contact?.tdc
       <section class="block profile-block">
         <h2>Executive Profile</h2>
         <div class="profile-grid">
-          ${paragraphs(resume.executiveProfile)}
+          ${paragraphs(resume.executiveProfile ?? [])}
         </div>
       </section>
 
@@ -182,7 +182,7 @@ ${resume.contact?.tdc
           <div class="document-label">Evidence Portfolio</div>
           <h2>Selected Systems Engineering Portfolio</h2>
         </div>
-        <p>${escapeHtml(resume.footer)}</p>
+        <p>${escapeHtml(resume.footer ?? '')}</p>
       </header>
 
       <section class="systems-grid">
