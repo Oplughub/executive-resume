@@ -198,8 +198,13 @@ const html = `<!doctype html>
       </section>
 
       <footer class="resume-footer">
-        <span>Built from source: <a href="https://github.com/JosephJMWalker-MBA/executive-resume">github.com/JosephJMWalker-MBA/executive-resume</a></span>
-      </footer>
+  <span>
+    Built from source:
+    <a href="${escapeHtml(resume.repository.url)}">
+      ${escapeHtml(resume.repository.url)}
+    </a>
+  </span>
+</footer>
     </section>
   </main>
 </body>
