@@ -21,11 +21,11 @@ const join = (items = []) => items.map(escapeHtml).join(' • ');
 
 const paragraphs = (items = []) => items.map((item) => `<p>${escapeHtml(item)}</p>`).join('\n');
 
-const publicationItems = resume.publications.technicalDisclosureCommons
+const publicationItems = (resume.publications?.technicalDisclosureCommons ?? [])
   .map((item) => `<li>${escapeHtml(item)}</li>`)
   .join('\n');
 
-const bookItems = resume.publications.books
+const bookItems = (resume.publications?.books ?? [])
   .map((item) => `<p><em>${escapeHtml(item)}</em></p>`)
   .join('\n');
 
