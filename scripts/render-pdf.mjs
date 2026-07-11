@@ -6,7 +6,17 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 const input = `file://${resolve(root, 'index.html')}`;
-const output = resolve(root, 'dist', 'Joseph-Walker-Executive-Resume.pdf');
+import { readFile } from 'node:fs/promises';
+
+const resume = JSON.parse(
+  await readFile(resolve(root, 'data', 'resume.json'), 'utf8')
+);
+
+const pdfName =
+  (resume.identity.pdfFileName ??
+    resume.identity.name.replace(/\s+/g, '-')) + '.pdf';
+
+const output = resolve(root, 'dist', pdfName);
 
 await mkdir(resolve(root, 'dist'), { recursive: true });
 
