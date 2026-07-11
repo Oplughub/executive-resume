@@ -84,7 +84,7 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Joseph Walker — Executive Technical Resume</title>
+  <title>${escapeHtml(resume.identity.name)} — ${escapeHtml(resume.identity.documentLabel)}</title>
   <link rel="stylesheet" href="styles/screen.css" />
   <link rel="stylesheet" href="styles/print.css" media="print" />
 </head>
