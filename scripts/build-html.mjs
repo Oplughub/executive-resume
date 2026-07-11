@@ -217,8 +217,8 @@ ${resume.contact?.tdc
       <footer class="resume-footer">
   <span>
     Built from source:
-    <a href="${escapeHtml(resume.repository.url)}">
-      ${escapeHtml(resume.repository.url)}
+    <a href="${escapeHtml(resume.repository?.url ?? '#')}">
+      ${escapeHtml(resume.repository?.url ?? '')}
     </a>
   </span>
 </footer>
