@@ -36,8 +36,8 @@ jobs:
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Joseph-Walker-Executive-Resume
-          path: dist/Joseph-Walker-Executive-Resume.pdf
+          name: Executive-Resume
+          path: dist/*.pdf
 
       - name: Commit generated HTML
         run: |
