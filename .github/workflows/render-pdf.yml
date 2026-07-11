@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -13,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -25,7 +30,7 @@ jobs:
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
 
-      - name: Render PDF
+      - name: Render HTML and PDF
         run: npm run render
 
       - name: Upload PDF artifact
@@ -33,3 +38,17 @@ jobs:
         with:
           name: Joseph-Walker-Executive-Resume
           path: dist/Joseph-Walker-Executive-Resume.pdf
+
+      - name: Commit generated HTML
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add index.html
+
+          if git diff --cached --quiet; then
+            echo "No HTML changes."
+          else
+            git commit -m "Auto-update generated HTML"
+            git push
+          fi
