@@ -144,15 +144,22 @@ ${resume.contact?.tdc
           <aside class="publication-aside">
             <h3>Books</h3>
             ${bookItems}
-            <p class="focus"><strong>Focus:</strong> ${escapeHtml(resume.publications.focus)}</p>
+            <p class="focus">
+  <strong>Focus:</strong>
+  ${escapeHtml(resume.publications?.focus ?? '')}
+</p>
           </aside>
         </div>
       </section>
 
-      <section class="block callout edge-callout">
-        <h2>${escapeHtml(resume.edgeAI.title)}</h2>
-        <p>${escapeHtml(resume.edgeAI.summary)}</p>
-      </section>
+      ${resume.edgeAI
+  ? `
+<section class="block callout edge-callout">
+  <h2>${escapeHtml(resume.edgeAI.title ?? '')}</h2>
+  <p>${escapeHtml(resume.edgeAI.summary ?? '')}</p>
+</section>
+`
+  : ''}
 
       <section class="block capabilities-block">
         <h2>Engineering Capabilities</h2>
