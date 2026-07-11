@@ -29,7 +29,7 @@ const bookItems = (resume.publications?.books ?? [])
   .map((item) => `<p><em>${escapeHtml(item)}</em></p>`)
   .join('\n');
 
-const capabilityItems = resume.capabilities
+const capabilityItems = (resume.capabilities ?? [])
   .map(
     (capability) => `
           <div>
@@ -39,9 +39,11 @@ const capabilityItems = resume.capabilities
   )
   .join('\n');
 
-const achievementItems = resume.achievements.map((item) => `<li>${escapeHtml(item)}</li>`).join('\n');
+const achievementItems = (resume.achievements ?? [])
+  .map((item) => `<li>${escapeHtml(item)}</li>`)
+  .join('\n');
 
-const systemCards = resume.systems
+const systemCards = (resume.systems ?? [])
   .map((system, index) => {
     const isHero = index === 0;
     const validation = system.validation
@@ -62,18 +64,20 @@ const systemCards = resume.systems
   })
   .join('\n');
 
-const educationItems = resume.education
+const educationItems = (resume.education ?? [])
   .map((item) => {
     const year = item.year ? ` <span class="year">${escapeHtml(item.year)}</span>` : '';
     return `<p><strong>${escapeHtml(item.institution)}</strong> — ${escapeHtml(item.credential)}${year}<br />${escapeHtml(item.details)}</p>`;
   })
   .join('\n');
 
-const techItems = Object.entries(resume.technicalEnvironment)
+const techItems = Object.entries(resume.technicalEnvironment ?? {})
   .map(([key, values]) => `<dt>${escapeHtml(key)}</dt><dd>${join(values)}</dd>`)
   .join('\n');
 
-const principleItems = resume.principles.map((item) => `<li>${escapeHtml(item)}</li>`).join('\n');
+const principleItems = (resume.principles ?? [])
+  .map((item) => `<li>${escapeHtml(item)}</li>`)
+  .join('\n');
 
 const html = `<!doctype html>
 <html lang="en">
