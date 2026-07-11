@@ -12,6 +12,9 @@
     "linkedin": "https://www.linkedin.com/in/adam-lawal-oluwadamilare",
     "github": "https://github.com/oplughub"
   },
+  "repository": {
+    "url":"https://github.com/oplughub/executive-resume"
+},
   "executiveProfile": [
     "Dynamic and solutions-driven Systems & Automation Specialist with hands-on experience designing, building, and deploying end-to-end business operations platforms.",
     "Adept at connecting advanced AI systems (Microsoft Agent Framework, Foundry IQ) with robust low-code integrations (Make.com) and advanced spreadsheet data engines to resolve operational bottlenecks.",
